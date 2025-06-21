@@ -194,3 +194,5 @@ sudo make flash
 - **_Blue LED fades in and out continuously_**.
 - Red and Green LEDs remain off at all times.
 ## Final Output
+https://github.com/user-attachments/assets/39220e56-a86b-4138-bc8f-3b6550e641f5
+
