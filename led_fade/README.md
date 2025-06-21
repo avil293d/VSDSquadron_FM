@@ -194,5 +194,3 @@ sudo make flash
 - **_Blue LED fades in and out continuously_**.
 - Red and Green LEDs remain off at all times.
 ## Final Output
-
-- ![Watch the video](https://raw.githubusercontent.com/avil293d/VSDSquadron_FM/main/docs/thumbnail.jpg)](https://raw.githubusercontent.com/avil293d/VSDSquadron_FM/main/docs/Task1_output.mp4)
