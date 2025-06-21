@@ -193,4 +193,7 @@ sudo make flash
 
 - **_Blue LED fades in and out continuously_**.
 - Red and Green LEDs remain off at all times.
--[Video](Task1_output.mp4)
+<video width="640" height="360" autoplay muted loop playsinline controls>
+  <source src="https://avil293d.github.io/VSDSquadron_FM/Task1_output.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
