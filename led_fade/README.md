@@ -193,4 +193,4 @@ sudo make flash
 
 - **_Blue LED fades in and out continuously_**.
 - Red and Green LEDs remain off at all times.
-- [Task1_output.mp4](Task1_output.mp4)
+- Task1_output.mp4
