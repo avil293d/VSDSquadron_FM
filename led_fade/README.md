@@ -195,5 +195,4 @@ sudo make flash
 - Red and Green LEDs remain off at all times.
 ## Final Output
 
-- https://github.com/avil293d/VSDSquadron_FM/blob/main/docs/Task1_output.mp4
-
+- [![Watch the video](https://raw.githubusercontent.com/avil293d/VSDSquadron_FM/main/docs/thumbnail.jpg)](https://raw.githubusercontent.com/avil293d/VSDSquadron_FM/main/docs/Task1_output.mp4)
