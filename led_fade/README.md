@@ -195,7 +195,5 @@ sudo make flash
 - Red and Green LEDs remain off at all times.
 ## Final Output
 
-<video width="640" height="360" controls autoplay muted loop playsinline>
-  <source src="https://avil293d.github.io/VSDSquadron_FM/docs/Task1_output.mp4" type="video/mp4">
-</video>
+- https://github.com/avil293d/VSDSquadron_FM/blob/main/docs/Task1_output.mp4
 
