@@ -1,2 +1,2 @@
-## This repository contains projects Implemented on VSDSquadron FPGA Mini, utilizing open-source FPGA tools for development.
-The VSDSquadron FPGA Mini (FM) board is a compact and versatile prototyping platform developed by [VLSI System Design](https://www.vlsisystemdesign.com/)featuring an onboard FPGA programmer, dedicated flash memory, user-controllable RGB LED, and full access to FPGA I/O pins—enabling seamless development and experimentation.
+## This repository contains projects Implemented on VSDSquadron FPGA Mini.
+The VSDSquadron FPGA Mini (FM) board is a compact and versatile prototyping platform developed by [VLSI System Design](https://www.vlsisystemdesign.com/) featuring an onboard FPGA programmer, dedicated flash memory, user-controllable RGB LED and full access to FPGA I/O pins—enabling seamless development and experimentation.
