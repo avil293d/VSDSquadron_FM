@@ -107,4 +107,4 @@ sudo make flash
 - FPGA loops back the data → TX Module sends data back → **blue LED** lights up.
 - The character is printed back on the minicom terminal which conforms it's functionality.
 ## Final Output
-![final_video_task2]()
+https://github.com/user-attachments/assets/e3e2d5f4-6ae9-43ad-92e8-8a1999056de6
