@@ -210,7 +210,7 @@ The Verilog module `uart.v` implements a **UART loopback mechanism**.
 When data is transmitted from a serial terminal **minicom**, it is immediately received back, verifying the FPGA’s UART functionality.  
 ## UART loopback mechanism Architecture
 
-![Architecture](Architecture.png)
+![Architecture](UART_loopback/Architecture.png)
 
 ```verilog
 `include "uart_tx.v"
@@ -239,7 +239,7 @@ module uart (
  The **UART Transmitter** module takes parallel data ( here it is 8-bit ASCII value of characters ) and converts it into a serial bitstream.  
  It typically frames each byte with a **start bit** and a **stop bit**, shifting out bits at the specified baud rate.  
 In this design, when data is available to transmit, the **blue LED** is driven HIGH to show TX is active.
- ![UART_protocol](uart_frame.png)
+ ![UART_protocol](UART_loopback/uart_frame.png)
 
 ## Receiver Module :
 
@@ -275,7 +275,7 @@ This runs the minicom terminal with the configuration of device as `/dev/ttyUSB0
 
 ### Note : The local echo needs to be enabled in the minicom terminal to view the loopback functionality.
 ### Go to Special Keys and enable the local Echo by pressing E . 
-![](Minicom_setup.png)
+![](UART_loopback/Minicom_setup.png)
 ## PCF File Configuration
 
 Maps logical Verilog ports to physical FPGA pins for the **VSDSquadron Mini Board**:
