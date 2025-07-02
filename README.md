@@ -385,6 +385,7 @@ Replace `/dev/ttyUSB0` with your actual device.
 ![running](UART_tx_external_device/Media/picocom_running.png) 
 ## Output
 Once running, the serial terminal will display the transmitted character continuously, confirming the UART transmitter works.
+- Press ctrl + A then ctrl + X to exit picocom
 ## Final Output 
 https://github.com/user-attachments/assets/f4680b41-391b-4b66-9004-a894ab15510f
 
