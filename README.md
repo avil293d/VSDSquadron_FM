@@ -339,7 +339,7 @@ The design divides the FPGA’s internal **12 MHz clock** down to **9600 baud** 
 This ensures precise bit timing for the UART transmission.
 
 ## State diagram of Transmitter Module 
-![state_digram](Media/State_diagram.jpeg)
+![state_digram](/UART_tx_externa device/Media/State_diagram.jpeg)
 ## PCF File Configuration
 
 | Signal Name | FPGA Pin | Description          |
