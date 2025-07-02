@@ -1,11 +1,11 @@
-`include "uart_trx.v"
+`include "uart_tx_8n1.v"
 
 //----------------------------------------------------------------------------
 //                                                                          --
 //                         Module Declaration                               --
 //                                                                          --
 //----------------------------------------------------------------------------
-module top (
+module Transmitter (
   // outputs
   output wire led_red  , // Red
   output wire led_blue , // Blue
