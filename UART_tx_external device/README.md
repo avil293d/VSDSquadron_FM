@@ -10,7 +10,7 @@ This module continuously sends character 'D' using UART protocol from the FPGA's
 
 ## UART Transmitter Architecture
 
-![Architecture](media/block_diagram_digital.png)
+![Architecture](Media/block_diagram_digital.png)
 
 - **TX pin ( txbit --> tx --> uarttx )** transmits serial data to the external receiver (e.g., PC).
 
@@ -26,7 +26,7 @@ The design divides the FPGA’s internal **12 MHz clock** down to **9600 baud** 
 This ensures precise bit timing for the UART transmission.
 
 ## State diagram of Transmitter Module 
-![state_digram](/Media/State_diagram.jpeg)
+![state_digram](Media/State_diagram.jpeg)
 ## PCF File Configuration
 
 | Signal Name | FPGA Pin | Description          |
@@ -67,9 +67,9 @@ sudo picocom -b 9600 /dev/ttyUSB0
 Replace `/dev/ttyUSB0` with your actual device.
 ### Note : Move into the /dev directory if you don't have access to the actual device. 
 
-![picocom](/Media/hardware_device.png)
+![picocom](Media/hardware_device.png)
 ### Picocom running :
-![running](/Media/picocom_running.png) 
+![running](Media/picocom_running.png) 
 ## Output
 
 Once running, the serial terminal will display the transmitted character continuously, confirming the UART transmitter works.
