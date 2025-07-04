@@ -83,4 +83,4 @@ This confirms the ultrasonic sensor, distance calculation logic and UART transmi
 
 ## Final Output
 
-[output-video]()
+https://github.com/user-attachments/assets/76fd7779-dbf6-470a-ae4e-dcb67f175cb8
