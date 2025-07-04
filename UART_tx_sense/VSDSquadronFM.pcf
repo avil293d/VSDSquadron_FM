@@ -1,0 +1,5 @@
+set_io trig_pin 12
+set_io echo_pin 11
+set_io uart_tx 14
+set_io led 40
+
