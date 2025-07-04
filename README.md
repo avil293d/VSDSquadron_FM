@@ -397,7 +397,7 @@ The Verilog module `top.v` implements an ultrasonic distance measurement system 
 
 ## UART Distance Measurement Architecture
 
-![Architecture](UART_txsense/block_diagram_digital.jpeg)
+![Architecture](UART_tx_sense/block_diagram_digital.jpeg)
 
 - The Trigger pin (`trig_pin`) generates a ~10µs pulse every 60ms to trigger the HC-SR04 sensor.
 - The Echo pin (`echo_pin`) receives the returned pulse which is timed to calculate distance.
@@ -490,7 +490,7 @@ It transmits formatted data in the form `D: 123 cm` for every measurement cycle.
 | echo_pin    | 11       | HC-SR04 Echo pin (input)    |
 | led         | 40       | LED indicates measurement   |
 ### Circuit diagram :
-![circuit](UART_txsense/Circuit_diagram.png)
+![circuit](UART_tx_sense/Circuit_diagram.png)
 
 
 ## Build and Flash
