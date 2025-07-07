@@ -37,6 +37,7 @@ module uart (
  It typically frames each byte with a **start bit** and a **stop bit**, shifting out bits at the specified baud rate.  
 In this design, when data is available to transmit, the **blue LED** is driven HIGH to show TX is active.
  ![UART_protocol](uart_frame.png)
+More On UART Communication at [LINK](https://www.circuitbasics.com/basics-uart-communication/).
 
 ## Receiver Module :
 
