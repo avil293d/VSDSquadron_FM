@@ -548,7 +548,7 @@ It also **echoes back** each received character for confirmation and debugging.
 
 ## UART RGB LED Control Architecture
 
-![Architecture](block_diagram_rgb_led.png.png)
+![Architecture](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/block_diagram_rgb_led.png.png)
 
 - The **internal oscillator** generates the system clock.
 - A **baud rate generator** produces a tick at 9600 baud for the UART logic.
@@ -605,7 +605,7 @@ Implements a **basic UART receiver**:
 - Passes the received byte to the top-level module for further processing.
 
 **Simulation Result:**  
-![uart_rx_simulation_result](/UART_actuator/UART_RX_Simulation/uart_rx_simulation_result.png)
+![uart_rx_simulation_result](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/UART_RX_Simulation/uart_rx_simulation_result.png)
 
 The testbench ([ uart_rx_tb.v ](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/UART_RX_Simulation/uart_rx_tb.v)) verifies the uart_rx by:
 - Generating a system clock.
@@ -635,7 +635,7 @@ always @(posedge clk) begin
 end
 ```
 #### Simulation Result :
-![led_controller_simulation_result](/UART_actuator/led_controller_simulation/led_cont_simulation.png)
+![led_controller_simulation_result](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/led_controller_simulation/led_cont_simulation.png)
 
 Note : All the simulation is done using iverilog .
 
