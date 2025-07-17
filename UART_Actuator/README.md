@@ -64,7 +64,7 @@ Implements a **basic UART receiver**:
 - Passes the received byte to the top-level module for further processing.
 
 **Simulation Result:**  
-![uart_rx_simulation_result](/UART_actuator/UART_RX_Simulation/uart_rx_simulation_result.png)
+![uart_rx_simulation_result](UART_RX_Simulation/uart_rx_simulation_result.png)
 
 The testbench ([ uart_rx_tb.v ](/UART_actuator/UART_RX_Simulation/uart_rx_tb.v)) verifies the uart_rx by:
 - Generating a system clock.
@@ -94,7 +94,7 @@ always @(posedge clk) begin
 end
 ```
 #### Simulation Result :
-![led_controller_simulation_result](/UART_actuator/led_controller_simulation/led_cont_simulation.png)
+![led_controller_simulation_result](led_controller_simulation/led_cont_simulation.png)
 
 The testbench ( [led_controller_tb](/UART_actuator/led_controller_simulation/led_controller_tb.v) ) verifies the behavior of the led_controller module by simulating how it responds to specific UART command bytes. It generates a simple clock signal, then sends a series of ASCII command bytes ('R', 'r', 'G', 'g', 'B', 'b') one by one to the module. For each command, it asserts the rx_done signal to simulate a received UART byte, checks whether the appropriate LED control output (led_r, led_g, led_b) turns ON or OFF as expected.
 
@@ -137,3 +137,11 @@ When the commands like `R` , `r` , `G` , `g` , `B` , `b` are sent the
 corresponding LED will turn ON or OFF instantly and the terminal will show the echoed character.
 
 ## Final Output
+https://github.com/user-attachments/assets/4b1693ad-346d-47e1-ba33-cc1768e0c5a8
+
+
+
+
+
+
+
