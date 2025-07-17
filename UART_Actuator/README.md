@@ -66,7 +66,7 @@ Implements a **basic UART receiver**:
 **Simulation Result:**  
 ![uart_rx_simulation_result](UART_RX_Simulation/uart_rx_simulation_result.png)
 
-The testbench ([ uart_rx_tb.v ]((https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/UART_RX_Simulation/uart_rx_tb.v))) verifies the uart_rx by:
+The testbench ([ uart_rx_tb.v ](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/UART_RX_Simulation/uart_rx_tb.v)) verifies the uart_rx by:
 - Generating a system clock.
 - Producing a 9600 baud tick from a 12 MHz system clock.
 - Sending a UART frame (start bit → data bits → stop bit) on the `rx` line.
