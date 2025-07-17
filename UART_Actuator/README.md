@@ -96,6 +96,8 @@ end
 #### Simulation Result :
 ![led_controller_simulation_result](led_controller_simulation/led_cont_simulation.png)
 
+Note : All the simulation is done using iverilog .
+
 The testbench ( [led_controller_tb](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/led_controller_simulation/led_controller_tb.v) ) verifies the behavior of the led_controller module by simulating how it responds to specific UART command bytes. It generates a simple clock signal, then sends a series of ASCII command bytes ('R', 'r', 'G', 'g', 'B', 'b') one by one to the module. For each command, it asserts the rx_done signal to simulate a received UART byte, checks whether the appropriate LED control output (led_r, led_g, led_b) turns ON or OFF as expected.
 
 ### 4 . `uart_tx.v`
