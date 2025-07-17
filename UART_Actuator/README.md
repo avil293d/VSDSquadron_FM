@@ -2,8 +2,7 @@
 
 ## Purpose of the Module
 
-The Verilog design implements an **FPGA-based RGB LED control system** that receives **ASCII commands** over UART from a PC or serial terminal.  
-It parses each received command, decodes it and controls three LEDs (Red, Green, and Blue) accordingly.  
+The Verilog design implements an **FPGA-based RGB LED control system** that receives **ASCII commands** over UART from a PC or serial terminal.  It parses each received command, decodes it and controls three LEDs (Red, Green, and Blue) accordingly.  
 It also **echoes back** each received character for confirmation and debugging.
 
 ## UART RGB LED Control Architecture
@@ -108,7 +107,7 @@ This module implements a **simple UART transmitter**:
 - Asserts `txdone` when transmission completes.
 
 
-## Pin Configuration (SB_RGBA_DRV)
+## Pin Configuration
 
 | RGB Channel | FPGA Pin |  Description                  |
 |-------------|----------|-------------------------------|
@@ -135,6 +134,6 @@ The terminal will show the actual received character.
 ## Output Behavior
 
 When the commands like `R` , `r` , `G` , `g` , `B` , `b` are sent the   
-corresponding LED(s) will turn ON or OFF instantly and the terminal will show the echoed character.
+corresponding LED will turn ON or OFF instantly and the terminal will show the echoed character.
 
 ## Final Output
