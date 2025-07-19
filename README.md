@@ -543,10 +543,10 @@ https://github.com/user-attachments/assets/76fd7779-dbf6-470a-ae4e-dcb67f175cb8
 
 ## Purpose of the Module
 
-The Verilog design implements an **FPGA-based RGB LED control system** that receives **ASCII commands** over UART from a PC or serial terminal.  It parses each received command, decodes it and controls three LEDs (Red, Green, and Blue) accordingly.  
+The Verilog design implements an **UART-Controlled Actuator System** that receives **ASCII commands** over UART from a PC or serial terminal.  It parses each received command, decodes it and controls three LEDs (Red, Green, and Blue) accordingly.  
 It also **echoes back** each received character for confirmation and debugging.
 
-## UART RGB LED Control Architecture
+## UART LED Control Architecture
 
 ![Architecture](https://github.com/avil293d/VSDSquadron_FM/blob/main/UART_Actuator/block_diagram_rgb_led.png.png)
 
